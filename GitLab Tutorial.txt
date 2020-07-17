@@ -1,0 +1,57 @@
+Switch to your branch:
+
+1) Firstly make a directory by cloning: git clone git@gitlab.com:klittley/utc_projects-pezzino.git (only once)
+2) cd into the new file: cd utc_projects-pezzino.git
+3) git checkout YOUR_BRANCH_NAME_HERE
+4) Voila to check type: git status
+
+Updating your branch to be same as master (pull request):
+   									
+1) if you have done above step then simply type: git pull origin master
+2) git push (this is to push new files to your branch)
+
+Add new files/edits:
+
+*) may need to pull latest from master before proceeding
+
+1) drag and drop into the local folder
+2) type git status
+3) you will see bunch of files in red, type: git add .
+4) git status to ensure files are now green
+5) git commit -m "Put a suitable message for what you are adding/doing"
+6) git push 
+
+If you wanna revert your branch simply do:
+
+1) git checkout -- .
+
+If you want another branch to excperiment:
+
+*) make sure you are in the branch u want to experiment on
+
+1) git branch experimental (this will create a branch called experimental)
+2) git branch (will show list of all branches ensure your new branch is there)
+3) git checkout experimental (will switch to the experimental branch)
+4) git branch (you will see it green with astreik that means u are in the experimental branch)
+5) Make your changes and test enjoy :)
+------------------------------------------------------ If you are happy with the experimental and want it in ur branch do this:
+6) do steps shown above for "new files/edit" 
+
+
+You will only be able to pull from master branch and not push to it. If you have changes in your branch and want to push to master let me know.
+
+useful links:
+
+https://www.quora.com/How-do-I-upload-folders-in-GitLab-or-Bitbucket-as-I-do-in-GitHub
+
+https://gist.github.com/sabarasaba/3080590
+
+https://www.tutorialspoint.com/gitlab/gitlab_git_commands.htm
+
+INSTALLATION:
+
+1) Download and install https://gitforwindows.org/
+2) Follow this tutorial: https://docs.gitlab.com/ee/ssh/
+
+REMINDER: - tell them to bring in one of their laptops so you can install git on it!
+	  - Note to push to branch do git push origin master to push from master to  master.

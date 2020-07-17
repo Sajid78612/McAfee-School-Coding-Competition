@@ -1,0 +1,2 @@
+Changes:
+- When you pause the game the item buttons go into a disabled interactable state so you cannot click on them but they are still there.

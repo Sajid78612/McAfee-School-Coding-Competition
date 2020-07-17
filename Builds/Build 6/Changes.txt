@@ -1,0 +1,2 @@
+Added the icon 
+Changed the type of buttons (removed from canvas)

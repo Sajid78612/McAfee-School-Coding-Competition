@@ -1,0 +1,25 @@
+- back button on winning screen
+- background
+- achievements
+
+Arcade:
+- leaderboard
+- player start points = 5
+- blackhole (counters: 10)
+- 2 go's in a row (counters: 4)
+- change point board so they are randomised, points between 0-5
+- Reduce number of points on the point board (total = 7 pp) (1 points is worth 10 counters, random anywhere on the board)
+
+Chris -
+- make blackhole counter
+- design instruction page
+ - 
+- make other counters 
+- change launcher banner 
+
+Tom -
+- make background (16:9, 1920x1080)
+ - Two separate backgrounds, 1 for classic, 1 for arcade
+ - Classic:  
+ - Arcade:
+- new icon for program (32x32)

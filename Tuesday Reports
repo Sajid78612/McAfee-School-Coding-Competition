@@ -1,0 +1,184 @@
+Hey guys you can use this file to leave any questions or queries you have after 
+your Tuesday meet up. I will look into it and come with feedback on Thursdays.
+
+Below is an example of the format I recommend writing any queries to me in. 
+Feel free to start editing it below.  
+
+Any further questions you can email me on muhammadsajid_alam@mcafee.com
+
+*Example Format:*
+--------------------------------------------------------------------------------
+08/11/18 
+
+Write brief statement about what you discussed.
+
+•	Write in Java or C sharp (look at what has more examples in games)
+•	Powerups in the game: Randomly generated powerup, random question marks on the board
+•	Powerups could be: place 2 counters instead of one(and remove any counter), the powerups must be used in that turn.
+•	Nothing happens in some powerups so a move is wasted
+•	Start with AI gamemode, then local multiplayer then if you can make a online multiplayer.
+•	Look into OOP (Object Orientated Programming)
+
+--------------------------------------------------------------------------------
+13/11/18 
+
+Write brief statement about what you discussed.
+
+•	Started to learn C#
+•   Created a background for the program (It is only temporary but depending on time we might keep it).
+•   Created a working main menu in Unity with buttons for: Play, Options and Quit. The options button takes you to a volume slider which will change the volume of sound playing in the program however there is currently a bug where if you pause the game scene and go back to the menu scene then you end up duplicating the sound.
+•   Came up with an algorithm we could adapt to work in the program which is how to get it to work out when you have 4 in a row (not diagonal yet...)
+•   Goal for the following week is to begin work on the actual game scene, try to get a connect 4 board showing and improve our algorithm to diagonally work out if we have 4 if we can     otherwise we will ask for assistance. We will also try to make some more algorithms.
+•   Create an icon for the program and a splash screen image for the unity launcher when the game is opened (this is not planned for the following week just an idea to make it look more finished once the game is fully working if we have time).
+
+********************************************************************************
+Comments: Nice work so far. You should upload all the work you have done so far
+inside your branch and send a merge request. This will allow me to look at your 
+code and help you better on Thursdays.
+
+look into deleting directories and files in gitlab 
+
+Sajid
+********************************************************************************
+--------------------------------------------------------------------------------
+20/11/18 
+
+Write brief statement about what you discussed.
+
+• Need to get the buttons to drop a counter into the board when clicked on
+• Going to add a splash screen which comes after the made with unity one which will have our team logo.
+Added -
+• Connect 4 Board
+• Buttons for each column of the board so you can choose where you want your counter to go
+• When you pause the game the audio pauses too
+• Auto-adjustments of the size of elements to fit the resolution of different screens.
+• Icon
+• Launcher Banner
+• You can now click on the buttons above the board and a counter will drop directly below.
+Fixes -
+• Sound no longer duplicates when you return to main menu
+Bugs -
+• The audio slider does not save the position it is in when the user changes scene
+
+********************************************************************************
+Comments: Very impressive stuff so far guys, I have built and ran your game and 
+it looks to be on the right tracks,
+
+If you have any issues you want me to look into let me know as well. 
+
+Keep up the good work! :)
+
+Sajid
+********************************************************************************
+--------------------------------------------------------------------------------
+27/11/18 
+
+Write brief statement about what you discussed.
+
+•	We have been experimenting with fields in the game and have got it to appear as 7x6 but we need to get it to appear over the board circles, we have progressed less
+this week due to assignments.
+•   We might need help understanding how to set it in the right coordinates to match the circles on the board.
+
+********************************************************************************
+Comments: Ok I can have a look at that on Thursdays. If you have any new changes
+please do update it on the cloud drive. We may set up teaching session on 6th 
+December to go through how to use git properly as using the cloud drive isn't ideal.
+Let me know of any other specific queries you have.
+
+Sajid
+********************************************************************************
+05/12/18 
+
+Write brief statement about what you discussed.
+
+•	Made the camera focus onto the field and give the field and counters the sprites of the free asset temporarily until we finish our counters and textures etc.
+•   The board now picks up a full board and then clears the board when you click play again and repeats game.
+•   The game logic needs sorting as it won't pick up 4 in a row yet and the pause menu is temporarily out of action as we need it to pause the counter from following 
+the cursor when you pause.
+
+--------------------------------------------------------------------------------
+12/12/18 
+
+Write brief statement about what you discussed.
+
+•	The connect 4 game has another menu that works where you have the choice of AI vs Player or Player vs Player (LOCAL)
+•   The pause menu works again now.
+•   Working on changing the AI algorithm for a player vs player one.
+
+********************************************************************************
+Comments: Sounds really good, your version 8 file on cloud is corrupted 
+you should upload a working version of it.
+
+Sajid
+********************************************************************************
+
+--------------------------------------------------------------------------------
+19/12/18 
+
+Write brief statement about what you discussed.
+
+•	I agree that AI may be a difficult thing to develop considering the time constraints and feel that it's more of a priority
+to get the arcade mode of PVP working as that is going to be our key difference to the base game so it is more unique.
+•   The Sub Menu idea for both Classic and Arcade are also a good suggestion that we may implement.
+
+Have a great holiday!
+
+********************************************************************************
+Comments: Writing early comment as I will be going on holiday soon. I have downloaded 
+and built version 8 of your game. I am liking the different game modes. The timer 
+idea is especially a nice touch.
+
+Several things to note though if you want your game to include the original connect4
+as a game mode you may want to add extra sub menus.
+Below is an example of how you may want to organise it:
+
+Main Menu              Sub Menu
+
+         ________________ PvP   
+Classic |________________ PvE (Maybe)
+        |________________ PvP Timed
+
+        _________________ PvP
+Arcade |_________________ PvP Timed
+
+I have ommited PvE in Arcade mode, I am also inclined to remove it from Classic mode as I believe 
+developing a comprehensive AI maybe to difficult for this project especially considering that in Arcade mode we will have 
+counters with abilities. Time constraints may not allow it. Keeping your game strictly PvP may be more efficient. 
+
+But this is your decision at the end of the day I can only give suggestions. If you are set on having an AI you may want to research
+into it and try adding it over Christmas. Some examples:  https://roadtolarissa.com/connect-4-ai-how-it-works/
+                                                          http://blog.gamesolver.org/
+
+Please note that the initial AI we had was very basic and chose random open spots to place a counter this is NOT a suitable AI.
+
+Final notes, if you do opt to go for PvP only mode then your game is half done as classic is pretty much finished except maybe needing a bit of polish. Your next move should
+be looking to finish up Arcade mode by coming up with coherent game logic and design.
+
+Obviously the above is just a suggestion and you may have different ideas, which is fine but please note them down here. 
+
+Feel free to message me over the holiday or leave comments here for any help or questions you have.
+
+* I have managed to get git shell working properly on my pc and was able to upload version 8 of your game. After the break i will show you how to install and upload to gitlab
+from your own pc. Your latest file is in dev/Connect Four - McAfee Project directory. I have updated most of your branches with the master branch.
+
+Have a lovely Christmas :)
+
+Sajid
+********************************************************************************
+
+
+--------------------------------------------------------------------------------
+08/01/19 
+
+Write brief statement about what you discussed.
+
+•	Write in here
+
+--------------------------------------------------------------------------------
+15/01/19 
+
+Write brief statement about what you discussed.
+
+•	Write in here
+
+--------------------------------------------------------------------------------

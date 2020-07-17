@@ -1,0 +1,45 @@
+C4 Arcade Design
+
+7X6 = 42 total counters on the board
+42/2 = 21 counters each
+Starting counters: 10 for each player
+Counters to gain: 32
+
+Special positions on the board will exist that provide power ups, positioning on the row will be randomly generated
+for each game. Power positions (PP from here on) higher on the board are more powerful, as it is in late game stages
+we may want powers that disrupt arrangement or free up some space on the board.
+
+On lower half of the board we can have PP with simple benefits such as +1 counters
+on the very bottom and incrementing as we go higher on the board.
+
+The number of counters represent how many more moves you can make we can extend the definition to represent it as a form of currency for late game.
+We may trade counters for some power up counter if we land in a PP. e.g.
+
+Trade 2 counters to make a black hole
+
+Trade 5 counters to remove 1 counter on the board
+
+Trade 10 counters to remove surrounding counters
+
+trade 15 counters to ...
+
+Trade 25 counters to reset the game
+
+
+
+Example:
+ *32 counters left to be claimed by players*
+
+ Seven +1 counters found in row 1
+
+ *25 left to be claimed by players*
+
+ Four +2 counters found in row 2
+
+ *17 left to be claimed by players*
+
+ Three +3 counters found in row 3
+
+ *8 left to be claimed by players*
+
+ Two +4 counters found in row 4
